@@ -1,0 +1,27 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav li:not(:first-child) {
+  margin-left: 20px;
+}
+
+nav li:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+
+nav li:not(:hover) {
+  scale: 1;
+  transition: 0.6s;
+}

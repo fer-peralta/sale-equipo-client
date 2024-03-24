@@ -1,0 +1,10 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+section.players-dashboard {
+  display: flex;
+  flex-direction: row;
+}
