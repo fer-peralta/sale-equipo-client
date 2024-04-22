@@ -175,7 +175,7 @@ export default function Home() {
 
   const randomizeTeams = () => {
 
-    if (players.length / 2 !== 0) {
+    if (players.length % 2 !== 0) {
       throw Error("Los jugadores deben ser pares")
     }
 
