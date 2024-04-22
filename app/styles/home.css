@@ -4,7 +4,20 @@ form {
   width: 300px;
 }
 
-section.players-dashboard {
+.hidden {
+  display: none;
+}
+
+/* section.players-dashboard {
   display: flex;
   flex-direction: row;
+} */
+
+tr {
+  height: 20px;
+}
+
+th,
+td {
+  width: 50px;
 }
